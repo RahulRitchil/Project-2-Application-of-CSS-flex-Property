@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application of CSS flex Property</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="main-header">
+        <!-- nav -->
+        <nav>
+            <!-- logo -->
+            <div class="logo">
+                <a href="#">flexbox preject</a>
+            </div>
+            <!-- menu -->
+            <ul class="menu">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+        <!-- header banner -->
+        <img src="assets/media/images/img-1.jpg" alt="header-banner">
+    </header>
+    <!-- main -->
+    <main>
+        <!-- welcome section -->
+        <section class="welcome">
+            <div class="wel-cont">
+                <h1>welcome to our website</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eligendi voluptatibus qui, tempore quisquam sit architecto id totam et aspernatur dolorum nulla ducimus vero mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime et quas sint maiores ullam dolores corporis. Ducimus illo doloribus esse?</p>
+            </div>
+            <div class="history">
+                <div class="mission">
+                    <i class="fa fa-flag"></i>
+                    <h2>our mission</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis nostrum nam voluptates doloribus, laboriosam nesciunt non aliquam corporis assumenda, cupiditate aliquid? Amet ratione quisquam iste! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus delectus, assumenda iusto reiciendis voluptatibus quam nobis ex numquam maiores inventore.</p>
+                </div>
+                <div class="mission">
+                    <i class="fa-solid fa-binoculars"></i>
+                    <h2>our vission</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis nostrum nam voluptates doloribus, laboriosam nesciunt non aliquam corporis assumenda, cupiditate aliquid? Amet ratione quisquam iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, similique. Dolorum, sapiente ducimus aperiam distinctio pariatur porro ea molestias tempora.</p>
+                </div>
+                <div class="mission">
+                    <i class="fa-solid fa-book-open"></i>
+                    <h2>our history</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis nostrum nam voluptates doloribus, laboriosam nesciunt non aliquam corporis assumenda, cupiditate aliquid? Amet ratione quisquam iste! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis numquam accusamus est officia sunt quaerat autem dicta, dolorum quam mollitia?</p>
+                </div>
+            </div>
+        </section>
+        <!-- service section -->
+        <section class="service">
+            <div class="service-content">
+                <h1>services</h1>
+                <div class="title">
+                    <div class="title-content">
+                        <h2>service title</h2>
+                        <img src="assets/media/images/img-2.jpg" alt="con-1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis fuga sunt fugit consequatur tempora nulla dolore. Illo officia blanditiis eum.</p>
+                        <a href="#">read more</a>
+                    </div>
+                    <div class="title-content">
+                        <h2>service title</h2>
+                        <img src="assets/media/images/img-3.jpg" alt="con-3">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis fuga sunt fugit consequatur tempora nulla dolore. Illo officia blanditiis eum.</p>
+                        <a href="#">read more</a>
+                    </div>
+                    <div class="title-content">
+                        <h2>service title</h2>
+                        <img src="assets/media/images/img-4.jpg" alt="con-4">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis fuga sunt fugit consequatur tempora nulla dolore. Illo officia blanditiis eum.</p>
+                        <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gallery section -->
+        <section class="gallery">
+            <div class="gallery-container">
+                <h1>gallery</h1>
+            <div class="gal-con">
+                <div class="gal-con-img">
+                    <img src="assets/media/images/img-5.jpg" alt="gal-1">
+                </div>
+                <div class="gal-con-img">
+                    <img src="assets/media/images/img-6.jpg" alt="gal-2">
+                </div>
+                <div class="gal-con-img">
+                    <img src="assets/media/images/img-7.jpg" alt="gal-1">
+                </div>
+                <div class="gal-con-img">
+                    <img src="assets/media/images/img-8.jpg" alt="gal-1">
+                </div>
+                <div class="gal-con-img">
+                    <img src="assets/media/images/img-9.jpg" alt="gal-1">
+                </div>
+                <div class="gal-con-img">
+                    <img src="assets/media/images/img-10.jpg" alt="gal-1">
+                </div>
+                <div class="gal-con-img">
+                    <img src="assets/media/images/img-11.jpg" alt="gal-1">
+                </div>
+                <div class="gal-con-img">
+                    <img src="assets/media/images/img-12.jpg" alt="gal-1">
+                </div>
+            </div>
+            </div>
+            
+        </section>
+        <!-- contact section -->
+        <section class="contact">
+            <div class="contact-container">
+                <h1>contact</h1>
+                <div class="contact-element">
+                    <!-- contact form part -->
+                    <div class="contact-form">
+                        <form action="#">
+                            <input type="text" id="name" name="name" placeholder=" name">
+                            <input type="text" id="subject" name="subject" placeholder="subject">
+                            <input type="text" id="email" name="email" placeholder="email">
+                            <textarea id="message" name="message" placeholder="message"></textarea>
+                            <input type="submit" value="send">
+                        </form>
+                    </div>
+                    <!-- contact address part -->
+                    <div class="contact-formp2">
+                        <!-- part-1 -->
+                        <div class="contact-formp2-cont">
+                            <div class="address-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="address-element">
+                                <h2>address</h2>
+                                <p>123, newyork, usa</p>
+                            </div>
+                        </div>
+                        <!-- part-2 -->
+                        <div class="contact-formp2-cont">
+                            <div class="address-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="address-element">
+                                <h2>email</h2>
+                                <p>info@example.com</p>
+                            </div>
+                        </div>
+                        <!-- part-3 -->
+                        <div class="contact-formp2-cont">
+                            <div class="address-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="address-element">
+                                <h2>phone</h2>
+                                <p>+880 123 4567 89</p>
+                            </div>
+                        </div>
+                        <!-- part-4 -->
+                        <div class="contact-formp2-cont">
+                            <div class="address-icon">
+                                <i class="fa-solid fa-earth-americas"></i>
+                            </div>
+                            <div class="address-element">
+                                <h2>website</h2>
+                                <p>www.example.com</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer-copy">
+        <p>&copy; 2023 all rights reserved.</p>
+    </footer>
+</body>
+</html>
